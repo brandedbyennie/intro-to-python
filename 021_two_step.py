@@ -37,9 +37,12 @@ print(
 print("")
 print("Function: divide_by_two_and_add_one")
 
-def divide_by_two_and_add_one(num):
+def divide_by_two_and_add_one(num):  
   # Divide num by two and add one to the result
-  pass # <-- This does nothing, replace it with your code
+  divide = num / 2
+  add = divide + 1
+  print(f"Result: {add}")
+  return add
 
 check_that_these_are_equal(
   divide_by_two_and_add_one(6),
@@ -53,7 +56,10 @@ print("Function: multiply_by_forty_and_add_sixty")
 
 def multiply_by_forty_and_add_sixty(num):
   # Multiply num by forty, and then add sixty
-  pass # <-- This does nothing, replace it with your code
+  multiply = num * 40
+  add = multiply + 60
+  print(f"result: {add}")
+  return add
 
 check_that_these_are_equal(
   multiply_by_forty_and_add_sixty(3423),
@@ -67,7 +73,10 @@ print("Function: add_together_and_double")
 
 def add_together_and_double(num_a, num_b):
   # Add together num_a and num_b, then double the result
-  pass # <-- This does nothing, replace it with your code
+  add_Together = num_a + num_b
+  double = add_Together * 2
+  print(f"result: {double}")
+  return double
 
 check_that_these_are_equal(
   add_together_and_double(3, 4),
